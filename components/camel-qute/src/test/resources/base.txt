@@ -1,0 +1,3 @@
+Start
+{#insert details}No body!{/}
+End

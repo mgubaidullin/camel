@@ -269,6 +269,7 @@ public interface EndpointBuilders
             org.apache.camel.builder.endpoint.dsl.QueueEndpointBuilderFactory,
             org.apache.camel.builder.endpoint.dsl.QueueServiceEndpointBuilderFactory,
             org.apache.camel.builder.endpoint.dsl.QuickfixjEndpointBuilderFactory,
+            org.apache.camel.builder.endpoint.dsl.QuteEndpointBuilderFactory,
             org.apache.camel.builder.endpoint.dsl.RabbitMQEndpointBuilderFactory,
             org.apache.camel.builder.endpoint.dsl.ReactiveStreamsEndpointBuilderFactory,
             org.apache.camel.builder.endpoint.dsl.RedisEndpointBuilderFactory,

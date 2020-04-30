@@ -461,6 +461,7 @@
         <qpid-jms-client-version>0.50.0</qpid-jms-client-version>
         <quartz-version>2.3.2</quartz-version>
         <quickfixj-version>2.1.1</quickfixj-version>
+        <qute-version>1.4.1.Final</qute-version>
         <rabbitmq-amqp-client-version>5.9.0</rabbitmq-amqp-client-version>
         <rdf4j-rio-version>2.4.4</rdf4j-rio-version>
         <rdf4j-model-version>2.4.4</rdf4j-model-version>
@@ -1979,6 +1980,11 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-quickfix</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel</groupId>
+        <artifactId>camel-qute</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>

@@ -2983,6 +2983,17 @@ public interface ComponentsBuilderFactory {
         return org.apache.camel.builder.component.dsl.QuickfixComponentBuilderFactory.quickfix();
     }
     /**
+     * Qute Template (camel-qute)
+     * Represents a Qute endpoint.
+     * 
+     * Category: transformation
+     * Since: 3.3
+     * Maven coordinates: org.apache.camel:camel-qute
+     */
+    static org.apache.camel.builder.component.dsl.QuteComponentBuilderFactory.QuteComponentBuilder qute() {
+        return org.apache.camel.builder.component.dsl.QuteComponentBuilderFactory.qute();
+    }
+    /**
      * RabbitMQ (camel-rabbitmq)
      * Send and receive messages from RabbitMQ instances.
      * 

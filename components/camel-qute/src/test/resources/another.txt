@@ -1,0 +1,4 @@
+Yet another Qute with body:
+    '{body}'
+and some header:
+    '{headers.someHeader}'
